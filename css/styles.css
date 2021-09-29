@@ -99,10 +99,12 @@ h1 button{
 
 .card.show-answer .inner-card{
 	transform: rotateX(180deg);
+	transition: transform 0.4s ease;
 }
 
 .inner-card-front,
 .inner-card-back{
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
