@@ -98,6 +98,7 @@ h1 button{
 }
 
 .card.show-answer .inner-card{
+	-webkit-backface-visibility: hidden;
 	transform: rotateX(180deg);
 }
 
