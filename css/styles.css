@@ -196,3 +196,9 @@ h1 button{
     max-width: 100%;
     width: 36vw;
 }
+
+@media screen and (max-width: 767px){
+	.clear{
+		bottom: 10px;
+	}
+}
